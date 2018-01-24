@@ -1,0 +1,53 @@
+# connect to github and deposit your project there
+#https://github.com/
+new respiratort
+and continues .....
+
+then 
+
+
+In terminal
+
+ cd /Users/medmela/Desktop/my_project 
+  505  config --global user.name "Mohammed Elasrag"
+  506  config --global user.name "MElasrag"
+  507  git config --global user.name "MElasrag"
+  508  git config --global user.email "medmela@leeds.ac.uk"
+  509  ls
+  510  echo "# intro_to_R" >> README.md
+  511  git init
+  512  git add README.md
+  513  git commit -m "first commit"
+  514  git remote add origin https://github.com/MElasrag/intro_to_R.git
+  515  git push -u origin master
+  517  git add .
+  518  git commit  -m "Add all files"
+  519  git push -u origin master
+  
+  
+  Again
+  Last login: Mon Jan 22 23:11:50 on ttys005
+campus-10-41-120-179:~ medmela$ cd /Users/medmela/Desktop/my_project 
+campus-10-41-120-179:my_project medmela$ git add .
+campus-10-41-120-179:my_project medmela$ git commit  -m "Work from 24 Jan"
+[master 82f8dbe] Work from 24 Jan
+ 9 files changed, 231 insertions(+), 1 deletion(-)
+ create mode 100644 Rplot.pdf
+ rename 01_data_Structures.R => Scripts/01_data_Structures.R (100%)
+ rename 02_lists_metrices.R => Scripts/02_lists_metrices.R (100%)
+ rename 03_exploring_dataframes.R => Scripts/03_exploring_dataframes.R (100%)
+ create mode 100644 Scripts/05_control_flow.R
+ create mode 100644 Scripts/06_Creating graphics.R
+ create mode 100644 github_connection and deposite.txt
+campus-10-41-120-179:my_project medmela$ git push -u origin master
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 99.42 KiB | 19.88 MiB/s, done.
+Total 9 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/MElasrag/intro_to_R.git
+   5b5f8fc..82f8dbe  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+campus-10-41-120-179:my_project medmela$ 
+
